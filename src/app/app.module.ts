@@ -8,12 +8,14 @@ import {DirTreeComponent} from './dir-tree/dir-tree.component';
 import {DirTreeService} from './dir-tree.service';
 import {PhotoViewComponent} from './photo-view/photo-view.component';
 import {PhotoViewService} from './photo-view.service';
+import { PhotoComponent } from './photo/photo/photo.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     DirTreeComponent,
-    PhotoViewComponent
+    PhotoViewComponent,
+    PhotoComponent
   ],
   imports: [
     BrowserModule,

@@ -1,15 +1,3 @@
-<dx-tile-view
-  #tileView
+<img src="https://upload.wikimedia.org/wikipedia/commons/0/0d/Great_Wave_off_Kanagawa2.jpg" style="width: 400px; height: 264px;">
+<img src="http://wallpapercave.com/wp/rZaowP9.jpg" style="width: 400px; height: 264px;">
 
-  [baseItemHeight]="120"
-  [baseItemWidth]="160"
-  width="100%"
-  [itemMargin]="10">
-  <dxi-item
-    *ngFor="let home of homes"
-    [widthRatio]="home.widthRatio"
-    [heightRatio]="home.heightRatio">
-    <div class="image" [style.background-image]="'url(' + home.ImageSrc + ')'"></div>
-    <div class="price">{{ home.Price | currency:'USD':'symbol':'1.0-0' }}</div>
-  </dxi-item>
-</dx-tile-view>
