@@ -1,11 +1,10 @@
 <dx-tile-view
   #tileView
-  [height]="390"
+
   [baseItemHeight]="120"
-  [baseItemWidth]="185"
+  [baseItemWidth]="160"
   width="100%"
-  [itemMargin]="10"
-  [direction]="'horizontal'">
+  [itemMargin]="10">
   <dxi-item
     *ngFor="let home of homes"
     [widthRatio]="home.widthRatio"
